@@ -12,21 +12,22 @@ taxonomies:
 
 menu:
     main:
-        - name: CV
-          url: cv/
-          weight: 5
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
+          weight: 1
+        - name: Books
+          url: books/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 4 
+        - name: Blog
+          url: blog/
+          weight: 3
+        # Uncomment once static/cv.pdf is added:
+        # - name: CV
+        #   url: cv.pdf
+        #   weight: 4
 
 params:
-    description: "This website hosts Camilla Andreozzi's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "Camilla Andreozzi's personal website: research papers, reading list, and blog."
     author: Camilla Andreozzi
     # googleAnalyticsID: G-XXXXX
     DateFormat: January 2006
@@ -41,7 +42,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
+    MainSections: [papers, blog]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -57,22 +58,20 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: CV
-              url: cv/
-              weight: 5
-            - name: Books
-              url: books/
-              weight: 5 
             - name: Papers
               url: papers/
-              weight: 2
-            - name: Data
-              url: data/
-              weight: 4   
+            - name: Books
+              url: books/
+            - name: Blog
+              url: blog/
+            # Uncomment once static/cv.pdf is added:
+            # - name: CV
+            #   url: cv.pdf
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # Uncomment once static/cv.pdf is added:
+        # - name: CV
+        #   url: cv.pdf
         - name: Email
           url: mailto:andreozzicamilla@gmail.com
         - name: GitHub
