@@ -1,0 +1,35 @@
+/* Reading list on content/books/_index.md */
+.booklist {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.book {
+    display: flex;
+    gap: 14px;
+    padding: 4px 0;
+}
+
+.book-date {
+    flex: none;
+    color: var(--secondary);
+    font-variant-numeric: tabular-nums;
+}
+
+.post-content .book a {
+    box-shadow: none;
+}
+
+.post-content .book a:hover {
+    text-decoration: underline;
+}
+
+.book-now {
+    font-size: 13px;
+    color: var(--secondary);
+    border: 1px solid var(--tertiary);
+    border-radius: var(--radius);
+    padding: 0 6px;
+    margin-left: 4px;
+    white-space: nowrap;
+}

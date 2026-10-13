@@ -21,10 +21,9 @@ menu:
         - name: Blog
           url: blog/
           weight: 3
-        # Uncomment once static/cv.pdf is added:
-        # - name: CV
-        #   url: cv.pdf
-        #   weight: 4
+        - name: CV
+          url: cv.pdf
+          weight: 4
 
 params:
     description: "Camilla Andreozzi's personal website: research papers, reading list, and blog."
@@ -53,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Camilla Andreozzi
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          subtitle: "I am an MSc student in Statistics at ETH Zürich and a Research Intern at the World Radiation Center in Davos, where I work on reconstructing gaps in satellite climate observations. My research focuses on statistical methods for environmental and humanitarian data, including multi-fidelity Gaussian processes, robust data fusion, and LLM-based information extraction. Before ETH, I completed a double degree in Statistics at the University of Glasgow and the University of Bologna, and worked with the UN Office for Disaster Risk Reduction and Public Health Scotland."
           imageUrl: camilla.jpeg
           imageWidth: 160
           imageHeight: 160
@@ -64,14 +63,12 @@ params:
               url: books/
             - name: Blog
               url: blog/
-            # Uncomment once static/cv.pdf is added:
-            # - name: CV
-            #   url: cv.pdf
+            - name: CV
+              url: cv.pdf
 
     socialIcons:
-        # Uncomment once static/cv.pdf is added:
-        # - name: CV
-        #   url: cv.pdf
+        - name: CV
+          url: cv.pdf
         - name: Email
           url: mailto:andreozzicamilla@gmail.com
         - name: GitHub

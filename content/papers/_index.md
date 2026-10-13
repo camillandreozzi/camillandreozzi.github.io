@@ -1,4 +1,4 @@
 ---
 title: "Papers"
-description: "Preprints and articles by Camilla Andreozzi."
+description: "Research papers and preprints by Camilla Andreozzi."
 ---
